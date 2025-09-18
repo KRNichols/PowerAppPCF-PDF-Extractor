@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="DL1SB" constructor="PDFExtractor" version="0.0.1" display-name-key="PDFExtractor" description-key="Extracts form data from dropped PDFs" control-type="standard">
+    <property name="ExtractedData" display-name-key="Extracted Data" description-key="JSON output of extracted PDF form data and field map" of-type="SingleLine.TextArea" usage="bound" required="false" />
+    <property name="resetTrigger" display-name-key="Reset Trigger" description-key="Integer value to trigger reset when changed" of-type="Whole.None" usage="input" required="false" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/PDFExtractor.css" order="1" />
+    </resources>
+  </control>
+</manifest>

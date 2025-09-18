@@ -1,0 +1,15 @@
+.pdf-drop-zone {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+.pdf-drop-zone.drag-over {
+    border-color: #0078d4;
+    background-color: #e6f7ff;
+}

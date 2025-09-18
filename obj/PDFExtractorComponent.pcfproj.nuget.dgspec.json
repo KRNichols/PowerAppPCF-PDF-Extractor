@@ -1,0 +1,56 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kevinnichols/PDFExtractorComponent/PDFExtractorComponent.pcfproj": {}
+  },
+  "projects": {
+    "/Users/kevinnichols/PDFExtractorComponent/PDFExtractorComponent.pcfproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kevinnichols/PDFExtractorComponent/PDFExtractorComponent.pcfproj",
+        "projectName": "PDFExtractorComponent",
+        "projectPath": "/Users/kevinnichols/PDFExtractorComponent/PDFExtractorComponent.pcfproj",
+        "packagesPath": "/Users/kevinnichols/.nuget/packages/",
+        "outputPath": "/Users/kevinnichols/PDFExtractorComponent/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/Users/kevinnichols/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "targetAlias": "net462",
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "targetAlias": "net462",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.PowerApps.MSBuild.Pcf": {
+              "target": "Package",
+              "version": "[1.*, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
